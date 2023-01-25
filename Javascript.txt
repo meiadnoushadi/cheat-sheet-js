@@ -49,6 +49,9 @@ const nameConstant
 Data Type in javascript
 ----------------------------------------------
 ----------------------------------------------
+Method General:
+
+------------
 string:
     'string'
     "string"
@@ -89,7 +92,9 @@ object:
 
 ------------
 undefined:
-
+    variable is undefined
+    value is undefined
+------------
 empty:
 
 ----------------------------------------------
