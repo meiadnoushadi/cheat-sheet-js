@@ -35,7 +35,12 @@ console.log('console.log')
 varable & constant in javascript
 ----------------------------------------------
 ----------------------------------------------
-
+var nameVariable
+    number  not start variable
+    _       start variable ok
+    %       not found in variable
+    #       not start variable
+    $       start variable ok
 ----------------------------------------------
 ----------------------------------------------
 doucment.getElementById('tag id')
