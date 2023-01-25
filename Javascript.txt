@@ -41,6 +41,10 @@ var nameVariable
     %       not found in variable
     #       not start variable
     $       start variable ok
+------------
+const nameConstant
+    can not change value in other line code
+
 ----------------------------------------------
 ----------------------------------------------
 doucment.getElementById('tag id')
