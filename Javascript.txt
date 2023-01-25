@@ -44,6 +44,34 @@ var nameVariable
 ------------
 const nameConstant
     can not change value in other line code
+----------------------------------------------
+----------------------------------------------
+Data Type in javascript
+----------------------------------------------
+----------------------------------------------
+string:
+    'string'
+    "string"
+    \"string\"
+
+    Method:
+    variableString.length   length string
+------------
+number:
+
+------------
+boolean:
+
+------------
+array:
+
+------------
+object:
+
+------------
+undefined:
+
+empty:
 
 ----------------------------------------------
 ----------------------------------------------
