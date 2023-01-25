@@ -58,10 +58,28 @@ string:
     variableString.length   length string
 ------------
 number:
+    Decimal:
+        integer
+        float/double
+        Ex -> var a = 2;
+    bainary:
+        Ex -> var a = Ob10101;
+    Octal:
+        Ex -> var a = Oo23;
+    Hex:
+        Ex -> var a = Ox3A1F2;
 
+    pow:
+        Ex -> var a = 2e5;
+
+    Method:
+    + : sum
+    - : sub
+    * : mul
+    / : div
 ------------
 boolean:
-
+    var a = true;
 ------------
 array:
 
