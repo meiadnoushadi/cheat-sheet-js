@@ -1,0 +1,40 @@
+
+
+
+
+----------------------------------------------
+----------------------------------------------
+Display
+----------------------------------------------
+----------------------------------------------
+HTML element,using : innerHTML
+HTML output using : document.write()
+alert box : window.alret()
+console using : console.log()
+
+HTML element,using : innerHTML
+document.getElementById('milad').innerHTML = 'getElementById';
+HTML output using : document.write()
+document.write('document.write');
+alert box : window.alret()
+window.alert('window.alert');
+console using : console.log()
+console.log('console.log')
+----------------------------------------------
+----------------------------------------------
+doucment.getElementById('tag id')
+----------------------------------------------
+----------------------------------------------
+innerHTML=''
+------------
+document.getElementById(''tag id').innerHTML='jayeghozin';
+onclick attr ==>
+change content in html tag
+use all tag
+------------
+attribute.propertyCss='value' 
+------------
+css:
+document.getElementById('demo2').style.backgroundColor='red';
+src:
+document.getElementById('blob').src='./images/pic_bulboff.gif';
