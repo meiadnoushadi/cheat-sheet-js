@@ -118,7 +118,10 @@ Arithmetic:
 
 ------------
 Assignment:
-    = : var a = 10
+    =  : var a = 10
+    ++ : ++a => a=11
+         a++ => a=10
+    -- : --a => a=10
 ------------
 Comparison:
 
