@@ -86,6 +86,10 @@ number:
     - : sub
     * : mul
     / : div
+    olaviyat :
+     () > ** > * > + > - > /
+    taghadom yeksan:
+     left to right
 ------------
 boolean:
     var a = true;
