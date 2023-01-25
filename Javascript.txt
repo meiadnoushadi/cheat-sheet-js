@@ -59,6 +59,12 @@ string:
 
     Method:
     variableString.length   length string
+
+    Note:
+    in javascript olaviyat data:
+        string > number > boolean
+        brower : string(numbers in sum) + (string)
+                 (string) + string(number1) + string(number2) + ...
 ------------
 number:
     Decimal:
