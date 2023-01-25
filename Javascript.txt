@@ -80,6 +80,7 @@ number:
 ------------
 boolean:
     var a = true;
+    var b = false;
 ------------
 array:
 
