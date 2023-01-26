@@ -135,15 +135,14 @@ Assignment:
 
 ------------
 Comparison:
-    >  : lt
-    <  : gt
-    <= : gte
-    >= : lte
-    != : not equal
-    == : equal
-
-
-
+    >   : lt
+    >=  : lte
+    <   : gt
+    <=  : gte
+    ==  : equal value
+    === : equal value and type
+    !=  : not equal value
+    !== : not equal value and type
 ------------
 Logical:
 
