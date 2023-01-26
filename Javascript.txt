@@ -145,7 +145,9 @@ Comparison:
     !== : not equal value and type
 ------------
 Logical:
-
+    && : and boolean
+    || : or boolean
+    !  : NOT boolean
 
 ------------
 Bitwise:
