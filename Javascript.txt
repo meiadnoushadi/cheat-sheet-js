@@ -135,6 +135,13 @@ Assignment:
 
 ------------
 Comparison:
+    >  : lt
+    <  : gt
+    <= : gte
+    >= : lte
+    != : not equal
+    == : equal
+
 
 
 ------------
