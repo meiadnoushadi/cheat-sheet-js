@@ -119,13 +119,20 @@ Arithmetic:
     /  : div
     ** : pow
     %  : mod
-
-------------
-Assignment:
     =  : var a = 10
     ++ : ++a => a=11
          a++ => a=10
     -- : --a => a=10
+
+------------
+Assignment:
+    = : var x = 20;
+    +=  : x += 
+    -=  : x -=    
+    *=  :
+    /=  :
+    **= :
+
 ------------
 Comparison:
 
