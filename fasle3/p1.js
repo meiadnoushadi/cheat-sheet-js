@@ -68,8 +68,37 @@
 //     i--;
 // };
 
-var k=5;
-do{
-    console.log(k);
-    k--;
-}while(k>=1)
+// var k=5;
+// do{
+//     console.log(k);
+//     k--;
+// }while(k>=1)
+
+// 39,40,41,42 ****************************************
+var i = 1;
+
+for (i;i<=5;i++){
+    console.log(i);
+};
+
+
+var sum =0;
+for(var num=0;num<=9;num++){
+    console.log(num);
+    sum+=num;
+};
+console.log(sum);
+
+
+// addade aval
+var conuter=0,num=598;
+for(var i=0;i<=num;i++){
+    if(num%i==0){
+        conuter++;
+    }
+}
+if(conuter==2){
+    console.log('aval');
+}else{
+    console.log('morakab')
+}

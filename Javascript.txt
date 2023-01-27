@@ -221,7 +221,12 @@ do{
 
 Note:amaliyat run one step age condition ham ghalat bashe
 
+------------
+for :
 
+for (startPoint;condition;stepLoop){
+    amaliyat;
+}
 
 
 
