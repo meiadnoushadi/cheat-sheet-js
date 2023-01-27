@@ -160,10 +160,17 @@ if | if else | if elseif else | switch
 ------------
 if : 
 
-if (condition):{
+if (condition){
     amaliyat
 }
+------------
+if else :
 
+if (condition){
+    amaliyat
+}else{
+    amaliyat
+}
 ------------
 
 

@@ -8,14 +8,6 @@
 // if (age>18){
 //     console.log('true')
 // }
-
-
-// var name = 'meiad'
-// if (name=='ali'){
-//     console.log('ture')
-// }else{
-//     console.log('false')
-// }
 // 25 ***************************************
 // var gender = 'male';
 // if (gender == 'male'){
@@ -44,4 +36,19 @@
 // if (age >= 30){
 //     console.log(age + '> 30')
 // };
-// 25 ***************************************
+// 26 ***************************************
+// var name = 'meiad';
+// if (name=='ali'){
+//     console.log(name + ' = meiad')
+// }else{
+//     console.log(name + ' = meiad')
+// };
+
+
+// var num = 20;
+// if (num%2==0){
+//     console.log('even')
+// }else{
+//     console.log('odd')
+// }
+// 26 ***************************************
