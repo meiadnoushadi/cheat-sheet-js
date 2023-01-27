@@ -51,4 +51,25 @@
 // }else{
 //     console.log('odd')
 // }
-// 26 ***************************************
+// 27 ***************************************
+var age = 25;
+if (age>18){
+    console.log('+18')
+}else{
+    console.log('-18')
+};
+
+
+var num = -10;
+if (num > 0 ){
+    console.log(num)
+}else{
+    console.log(-num)
+}
+
+var num = 11;
+if (num %2==0){
+    console.log('even')
+}else{
+    console.log('odd')
+}
