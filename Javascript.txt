@@ -46,7 +46,7 @@ const nameConstant
     can not change value in other line code
 ----------------------------------------------
 ----------------------------------------------
-Data Type in javascript
+Data Type in javascript : string | number | boolean
 ----------------------------------------------
 ----------------------------------------------
 Method General:
@@ -244,6 +244,7 @@ continue : stop gam in loop
 
 ------------
 nested Loop: 
+
     for(;;){
         //code
         for(;;){
@@ -252,12 +253,85 @@ nested Loop:
         //code
     }
 
+
 ----------------------------------------------
 ----------------------------------------------
-funtciones
+Data Type in javascript : array
 ----------------------------------------------
 ----------------------------------------------
+define :
+
+    var nameArray=[a,b,c,d,...]
+
+
+access id:
+
+    nameArray[i] => i : index array
+
+
+input in array:
+
+    nameArray[i]=data
+    Note:age in index nadash ezafe mikone
+         va age dasht jayeghozin mikone
+
+
+length array:
+
+    nameArray.length
+
+
+equal array:
+
+    barye in kar be address on array dar hafeze
+    deghat mishe
+    d=[1,2,3,4,'meiad']
+    e=[1,2,3,4,'meiad']
+    console.log(d==e) => false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------
+----------------------------------------------
+Method
+----------------------------------------------
+----------------------------------------------
+-------------
+string|number|boolean:
+
+
 type conversion:
+
     Number() :
         convert to number
     String() :
@@ -276,6 +350,81 @@ Note:
     ever string convert to boolean is true
     "0" => convert boolean => true
      0  => convert boolean => false
+
+------------
+Method Array:
+
+    toString():
+        convert array to string
+    
+    join(separator):
+        convert array to string by separator
+
+    pop():
+        remove end index in array
+        return data index in order
+
+    delete():
+        remove index delkhak in array
+        Note:
+            remove data not index
+            darnatije index empty
+            mishe
+
+    push():
+        add end index in array
+    
+    nameArray.length:
+        add end index in array
+        nameArray[nameArray.length]=new data
+
+    shift():
+        remove start index in array
+        return data index in order
+
+    shift():
+        add start index in array
+
+    concat():
+        nameArray.concat(nameArray2,nameArray3,...)
+
+    splice(index,num,data,data,...):
+        remove after index number in array
+        num : set number deleted index
+        return data removed
+        data : data added in array
+               tedad data barabare num hast
+
+    slice(index1,index2):
+        remove after index number in array
+        create new array,base array not change
+        remove index1 ta ghable index2
+    
+    sort():
+        sorted array alphabet-sort by string
+
+    reverse():
+        reverse index left => right | right => left
+
+    indexOf(data):
+        return number index avalin
+        if not found return -1
+
+    lastIndexOf(data):
+        return number index akharin
+        if not found return -1
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
