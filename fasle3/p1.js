@@ -45,11 +45,31 @@
 // }
 
 
-var sum =0,i=1;
+// var sum =0,i=1;
 
-while(i<=50){
-    sum+=i;
-    i++;
-}
-console.log('sum is : '+sum)
-console.log(typeof('sum is : '+sum))
+// while(i<=50){
+//     sum+=i;
+//     i++;
+// }
+// console.log('sum is : '+sum)
+// console.log(typeof('sum is : '+sum))
+
+// 37,38 ****************************************
+// var i=1;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<=15);
+
+
+// var j =5;
+// while(j>=1){
+//     console.log(j);
+//     i--;
+// };
+
+var k=5;
+do{
+    console.log(k);
+    k--;
+}while(k>=1)

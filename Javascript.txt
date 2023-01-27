@@ -203,13 +203,23 @@ switch (name variable){
 while | do-while | for | for in | for of 
 ----------------------------------------------
 ----------------------------------------------
+------------
 while :
+
 while(condition){
     amaliyat;
 }
 condition => true  : while wroking
 condition => false : stop while
 
+------------
+do while:
+
+do{
+    amaliyat;
+}while(condition);
+
+Note:amaliyat run one step age condition ham ghalat bashe
 
 
 
