@@ -74,14 +74,30 @@
 //     console.log('odd')
 // };
 // 28,29 ***************************************
-var age = 25;
-if (0>=age || age<10){
-    console.log('0 : 10')
-}else if (10>=age || age<20){
-    console.log('10 : 20')
-}else if (20>=age || age<30){
-    console.log('20 : 30')
-}else{
-    console.log('out of range')
-};
+// var age = 25;
+// if (0>=age || age<10){
+//     console.log('0 : 10')
+// }else if (10>=age || age<20){
+//     console.log('10 : 20')
+// }else if (20>=age || age<30){
+//     console.log('20 : 30')
+// }else{
+//     console.log('out of range')
+// };
+// 30 ***************************************
+// var gender = 'male';
+// var age = 19;
 
+// if(gender=='male'){
+//     if(age>18){
+//         console.log('male +18')
+//     }else{
+//         console.log('male -18')
+//     }
+// }else{
+//     if(age>18){
+//         console.log('female +18')
+//     }else{
+//         console.log('female -18')
+//     }
+// }
