@@ -239,7 +239,8 @@ number 0,undefined,NaN,null ==> false
 
 NaN : is result value funtcion no valid
 
-
+break : stop complete loop
+continue : stop gam in loop
 
 ----------------------------------------------
 ----------------------------------------------

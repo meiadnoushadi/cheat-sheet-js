@@ -164,23 +164,47 @@
 // console.log(d);
 // console.log(Number(c));
 
-var a=' ';
-console.log(a)
-console.log(typeof(a))
-if (a){
-    console.log(a)
-}
-console.log('-------------------')
-b=Boolean(' ')
-console.log(b)
-console.log(b)
-if (b){
-    console.log(b)
-}
-console.log('-------------------')
-c=Number(' ');
-console.log(c)
-console.log(typeof(c))
-if(c){
-    console.log(c)
+// var a=' ';
+// console.log(a)
+// console.log(typeof(a))
+// if (a){
+//     console.log(a)
+// }
+// console.log('-------------------')
+// b=Boolean(' ')
+// console.log(b)
+// console.log(b)
+// if (b){
+//     console.log(b)
+// }
+// console.log('-------------------')
+// c=Number(' ');
+// console.log(c)
+// console.log(typeof(c))
+// if(c){
+//     console.log(c)
+// }
+
+// 49,50 ****************************************
+
+// for(var i=1;i<=10;i++){
+//     console.log(i)
+//     if(i>=6){
+//         break
+//     }
+// }
+
+
+// for(var i=1;i<=10;i++){
+//     console.log(i)
+//     if(i==5){
+//         break
+//     }
+// }
+
+for (var i=1;i<=10;i++){
+    if(i%2==0){
+        continue
+    }
+    console.log(i)
 }
