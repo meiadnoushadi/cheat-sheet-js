@@ -243,15 +243,28 @@ NaN : is result value funtcion no valid
 
 ----------------------------------------------
 ----------------------------------------------
-doucment.getElementById('tag id')
+funtciones
 ----------------------------------------------
 ----------------------------------------------
+type conversion:
+    Number() :
+        convert to number
+    String() :
+        convert to string
+    Boolean() :
+        convert to boolean
 
+Note:
+    space ' ':
+        Number(' ')     => convert zero
+        Boolean(' ')    => convert true
+    in "if" used Boolean method for check
+    condition
 
-
-
-
-
+Note:
+    ever string convert to boolean is true
+    "0" => convert boolean => true
+     0  => convert boolean => false
 
 
 

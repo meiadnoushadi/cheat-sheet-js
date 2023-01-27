@@ -102,7 +102,7 @@
 //     console.log('morakab')
 // }
 
-// 43,46 ****************************************
+// 43,47 ****************************************
 
 // var num = 4;
 // var g = 4;
@@ -121,19 +121,66 @@
 //     console.log(r)
 // }
 
-// true:
-console.log(Boolean('text'))
-console.log(Boolean(109))
-console.log(Boolean(-109))
-//false:
-console.log(Boolean(0))
-console.log(Boolean(-0))
-console.log(Boolean(''))
+// // true:
+// console.log(Boolean('text'))
+// console.log(Boolean(109))
+// console.log(Boolean(-109))
+// //false:
+// console.log(Boolean(0))
+// console.log(Boolean(-0))
+// console.log(Boolean(''))
 
-if(''){
-    console.log('***')
+// if(''){
+//     console.log('***')
+// }
+
+// if(' '){
+//     console.log('***')
+// }
+
+// 48 ****************************************
+// console.log('-------------------')
+// var a = '100';
+// console.log(typeof(a));
+// console.log(a);
+// console.log(Number(a));
+// console.log(Number(''));
+// console.log(Number(' '));
+// console.log(Number('meiad'));
+// console.log(Number('12 12'));
+// console.log('-------------------')
+// var b = 100;
+// console.log(typeof(b));
+// console.log(b);
+// console.log(String(b));
+// console.log(12.3);
+// console.log('-------------------')
+// var c = true;
+// console.log(c);
+// console.log(Number(c));
+// console.log(String(c));
+
+// var d = false;
+// console.log(d);
+// console.log(Number(c));
+
+var a=' ';
+console.log(a)
+console.log(typeof(a))
+if (a){
+    console.log(a)
 }
-
-if(' '){
-    console.log('***')
+console.log('-------------------')
+b=Boolean(' ')
+console.log(b)
+console.log(b)
+if (b){
+    console.log(b)
+}
+console.log('-------------------')
+c=Number(' ');
+console.log(c)
+console.log(typeof(c))
+if(c){
+    console.log(c)
 }
