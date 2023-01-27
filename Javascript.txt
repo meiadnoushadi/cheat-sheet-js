@@ -172,7 +172,17 @@ if (condition){
     amaliyat
 }
 ------------
+else if :
 
+if (condition){
+    amaliyat
+}else if{
+    amaliyat
+}else if{
+    amaliyat
+}else{
+    amaliyat
+}
 
 
 

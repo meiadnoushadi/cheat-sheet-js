@@ -52,24 +52,36 @@
 //     console.log('odd')
 // }
 // 27 ***************************************
+// var age = 25;
+// if (age>18){
+//     console.log('+18')
+// }else{
+//     console.log('-18')
+// };
+
+
+// var num = -10;
+// if (num > 0 ){
+//     console.log(num)
+// }else{
+//     console.log(-num)
+// };
+
+// var num = 11;
+// if (num %2==0){
+//     console.log('even')
+// }else{
+//     console.log('odd')
+// };
+// 28,29 ***************************************
 var age = 25;
-if (age>18){
-    console.log('+18')
+if (0>=age || age<10){
+    console.log('0 : 10')
+}else if (10>=age || age<20){
+    console.log('10 : 20')
+}else if (20>=age || age<30){
+    console.log('20 : 30')
 }else{
-    console.log('-18')
+    console.log('out of range')
 };
 
-
-var num = -10;
-if (num > 0 ){
-    console.log(num)
-}else{
-    console.log(-num)
-}
-
-var num = 11;
-if (num %2==0){
-    console.log('even')
-}else{
-    console.log('odd')
-}
