@@ -101,3 +101,44 @@
 //         console.log('female -18')
 //     }
 // }
+
+// 31,32 ***************************************
+var number = 20;
+switch(number){
+    case 1:
+        console.log('number is '+number);
+        break;
+    case 2:
+        console.log('number is '+number);
+        break;
+    default:
+        console.log('number not valid')
+};
+
+
+var day = 8;
+switch(day){
+    case 0:
+        console.log('sat');
+        break;
+    case 1:
+        console.log('sun');
+        break;
+    case 2:
+        console.log('mon');
+        break;
+    case 3:
+        console.log('tus');
+        break;
+    case 4:
+        console.log('wid');
+        break;
+    case 5:
+        console.log('ter');
+        break;
+    case 6:
+        console.log('fri');
+        break;
+    default:
+        console.log('number days out of range')
+};

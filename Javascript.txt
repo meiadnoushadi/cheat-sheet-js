@@ -184,7 +184,18 @@ if (condition){
     amaliyat
 }
 
-
+------------
+switch case :
+switch (name variable){
+    case value1:
+        amaliyat
+        break;
+    case value2:
+        amaliyat
+        break;
+    default:
+        amaliyat
+}
 
 
 
