@@ -228,9 +228,24 @@ for (startPoint;condition;stepLoop){
     amaliyat;
 }
 
+------------
+infinite loop:
+
+age loop noghteye payani nadashte bashim
+ya shart payan emal nashe 
+
+string and number ==> true
+number 0,undefined,NaN,null ==> false
+
+NaN : is result value funtcion no valid
 
 
 
+----------------------------------------------
+----------------------------------------------
+doucment.getElementById('tag id')
+----------------------------------------------
+----------------------------------------------
 
 
 
