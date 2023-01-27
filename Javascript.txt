@@ -161,45 +161,54 @@ if | if else | if elseif else | switch
 if : 
 
 if (condition){
-    amaliyat
+    amaliyat;
 }
 ------------
 if else :
 
 if (condition){
-    amaliyat
+    amaliyat;
 }else{
-    amaliyat
+    amaliyat;
 }
 ------------
 else if :
 
 if (condition){
-    amaliyat
+    amaliyat;
 }else if{
-    amaliyat
+    amaliyat;
 }else if{
-    amaliyat
+    amaliyat;
 }else{
-    amaliyat
+    amaliyat;
 }
 
 ------------
 switch case :
 switch (name variable){
     case value1:
-        amaliyat
+        amaliyat;
         break;
     case value2:
-        amaliyat
+        amaliyat;
         break;
     default:
-        amaliyat
+        amaliyat;
 }
 
 
-
-
+----------------------------------------------
+----------------------------------------------
+while | do-while | for | for in | for of 
+----------------------------------------------
+----------------------------------------------
+while :
+while(condition){
+    amaliyat;
+}
+condition => true  : while wroking
+condition => false : stop while
 
 
 
