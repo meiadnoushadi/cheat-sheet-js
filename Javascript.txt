@@ -242,6 +242,16 @@ NaN : is result value funtcion no valid
 break : stop complete loop
 continue : stop gam in loop
 
+------------
+nested Loop: 
+    for(;;){
+        //code
+        for(;;){
+            //code
+        }
+        //code
+    }
+
 ----------------------------------------------
 ----------------------------------------------
 funtciones
