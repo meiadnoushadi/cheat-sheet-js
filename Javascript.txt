@@ -46,7 +46,7 @@ const nameConstant
     can not change value in other line code
 ----------------------------------------------
 ----------------------------------------------
-Data Type in javascript
+Data Type in javascript : string | number | boolean
 ----------------------------------------------
 ----------------------------------------------
 Method General:
@@ -251,6 +251,61 @@ nested Loop:
         }
         //code
     }
+
+
+----------------------------------------------
+----------------------------------------------
+Data Type in javascript : array
+----------------------------------------------
+----------------------------------------------
+define :
+    var nameArray=[a,b,c,d,...]
+access id:
+    nameArray[i] => i : index array
+input in array:
+    nameArray[i]=data
+    Note:age in index nadash ezafe mikone
+         va age dasht jayeghozin mikone
+length array:
+    nameArray.length
+equal array:
+    barye in kar be address on array dar hafeze
+    deghat mishe
+    d=[1,2,3,4,'meiad']
+    e=[1,2,3,4,'meiad']
+    console.log(d==e) => false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----------------------------------------------
 ----------------------------------------------
