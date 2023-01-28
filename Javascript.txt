@@ -288,7 +288,12 @@ equal array:
     d=[1,2,3,4,'meiad']
     e=[1,2,3,4,'meiad']
     console.log(d==e) => false
+-----------
+2D array:
 
+    array=[[array],[array]]
+
+    for search array[index][index]...
 
 
 
