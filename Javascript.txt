@@ -294,6 +294,36 @@ equal array:
     array=[[array],[array]]
 
     for search array[index][index]...
+----------------------------------------------
+----------------------------------------------
+Data Type in javascript : object
+----------------------------------------------
+----------------------------------------------
+const ObjectName={
+    key1:value1,
+    key2:value2,
+    ...
+    key3:function1(),
+}
+Note:
+    sort in brower by alphabet
+------------
+accesssing property :
+
+    object_name.key
+    object_name['key']
+
+------------
+use function in object:
+
+    key:function(){}
+    key === nameFunction
+
+    access function in object:
+    nameObject.key()
+
+
+
 
 ----------------------------------------------
 ----------------------------------------------
@@ -467,6 +497,36 @@ Method Array:
         return number index akharin
         if not found return -1
 -------------
+Method object:
+
+    add data:
+        nameObject.key=value
+    
+    add function:
+        nameObject.key=function(){
+            //code
+        }
+
+    Note:
+        dar zamane eshare shodan be yek 
+        data object mohtava dar disk sabet
+        hast va ba chand eshare gar mishe
+        be on eshare kard
+        pas har taghir ba sayer eshare garha
+        data asli taghir mikone
+
+
+
+
+
+
+
+
+
+
+
+
+-------------
 hoisting :
     1-declare       : noee variable
         hoisting declare !!!
@@ -474,8 +534,9 @@ hoisting :
 
 -------------
 active strict mode in code:
-    'use strict';
 
+    'use strict';
+    use force to syntax va mantegh
 
 -------------
 define varable:
@@ -483,9 +544,15 @@ define varable:
 var :
     save scop
 
+
 let :
     save scop
 
+    """
+    dar har scop meghdare khodesh ro
+    hefze mikone
+    """
+    
 const:
     save scop
 
