@@ -295,42 +295,78 @@ equal array:
 
     for search array[index][index]...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------------
 ----------------------------------------------
-Method
+Method(funtcion)
 ----------------------------------------------
 ----------------------------------------------
+two way to used funtcion in project:
+    1- funtcion declaration
+    2- funtcion expression
+
+-------------
+declaration:
+
+    funtcion nameFunction (parameter) {
+        //code
+        return output
+    }
+
+nameFunction(aragument)
+-------------
+expression:
+
+    var nameFunction=funtcion(parameter){
+        //code
+        return output
+    }
+
+Note:
+    age aragument kamtar az parameter bashe
+    NaN mishe output 
+    age aragument bishtar az parameter bashe
+    output dade mishe
+    -------------
+    parameter anynamus:
+
+        attribute arguments. input funtcion in
+        block funtcion:
+            aragument.length => tedad aragument
+
+        1-age funtcion meghdare be onvame vorodi
+        nadim mishe har tedad vorodi barash ferestad
+        arguments: save data in shebhe jazb not array
+
+        2-estefade az rest (... parameter)
+        parameter : is array
+
+    -------------
+    default parameter:
+
+        funtcion nameFunction(a=0,b=0,c=0){
+            //code
+        }
+
+        Note: add default parameter use end step
+            parameter c=0>b=0>a=0
+
+
+-------------
+Arrow funtcion:
+
+    var nameFunction=(parameter)=>//code
+
+-------------
+call back funtcion:
+
+    hamon reversing funtcion
+    call funtcion in body other
+    funtcion
+
+
+
+
+
 -------------
 string|number|boolean:
 
