@@ -36,6 +36,7 @@
 // var avg=sum/5;
 // console.log(avg);
 // console.log('************')
+<<<<<<< HEAD
 // var list2=[3,4,8];
 // console.log(list2.length)
 // var s = 0;
@@ -81,3 +82,15 @@ for(var i=0;i<array1.length;i++){
 }
 console.log(array1)
 console.log(max)
+=======
+var list2=[3,4,8];
+console.log(list2.length)
+var s = 0;
+for(var i=0;i<=list2.length;i++){
+    if(list2[i]%2==0){
+        console.log(list2[i]);
+    }
+}
+console.log(s);
+///// start video 59
+>>>>>>> eebc3d19c69bd49e6809e81cbd255116ec532653
