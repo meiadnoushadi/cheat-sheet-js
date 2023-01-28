@@ -363,9 +363,21 @@ call back funtcion:
     call funtcion in body other
     funtcion
 
+-------------
+scope :
 
+    global scope:
+        variable in main body is access
 
+    var nameVariable =>
+        main body : access
+            global scope
+            function scope
 
+    let nameVariable =>
+        main body : access
+            block scope:
+                block : {} : function | if | ...
 
 -------------
 string|number|boolean:
@@ -454,11 +466,32 @@ Method Array:
     lastIndexOf(data):
         return number index akharin
         if not found return -1
+-------------
+hoisting :
+    1-declare       : noee variable
+        hoisting declare !!!
+    2- initialize   : meghdar dahi
+
+-------------
+active strict mode in code:
+    'use strict';
 
 
+-------------
+define varable:
+
+var :
+    save scop
+
+let :
+    save scop
+
+const:
+    save scop
 
 
-
+undeclared :
+    total any scop : is global
 
 
 
