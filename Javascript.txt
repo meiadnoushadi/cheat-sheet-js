@@ -318,6 +318,36 @@ equal array:
     array=[[array],[array]]
 
     for search array[index][index]...
+----------------------------------------------
+----------------------------------------------
+Data Type in javascript : object
+----------------------------------------------
+----------------------------------------------
+const ObjectName={
+    key1:value1,
+    key2:value2,
+    ...
+    key3:function1(),
+}
+Note:
+    sort in brower by alphabet
+------------
+accesssing property :
+
+    object_name.key
+    object_name['key']
+
+------------
+use function in object:
+
+    key:function(){}
+    key === nameFunction
+
+    access function in object:
+    nameObject.key()
+
+
+
 
 -----------
 equal array:
