@@ -600,17 +600,6 @@ Method object:
         pas har taghir ba sayer eshare garha
         data asli taghir mikone
 
-
-
-
-
-
-
-
-
-
-
-
 -------------
 hoisting :
     1-declare       : noee variable
@@ -646,30 +635,104 @@ undeclared :
     total any scop : is global
 
 
-
-
-
-
-
-
-
-
-
 ----------------------------------------------
 ----------------------------------------------
-doucment.getElementById('tag id')
+DOM
 ----------------------------------------------
 ----------------------------------------------
-innerHTML=''
-------------
-document.getElementById(''tag id').innerHTML='jayeghozin';
-onclick attr ==>
-change content in html tag
-use all tag
-------------
-attribute.propertyCss='value' 
-------------
-css:
-document.getElementById('demo2').style.backgroundColor='red';
-src:
-document.getElementById('blob').src='./images/pic_bulboff.gif';
+DOM : Document Object Model
+    1- access elements html doucment
+    2-change elements html document
+    3- add elements html document
+    4- delete elements html doucment
+---------------
+DOM Tree:
+
+    doucment
+        html
+            head
+                title
+                link
+                ...
+            body
+                h1 element
+                p element
+                ...
+                ...
+
+    node: 12 noee 
+        * doucment node
+        * element node
+        * text node
+        * comment node
+
+---------------
+access element in doucment:
+
+    document.nameElement
+        output:
+            object
+        Note: access html tag 
+              doucment.doucmentElement
+        Note: access total element
+              nameTag[s]
+
+---------------
+Document Object:
+    method:
+
+        getElementById():
+            access object element by id
+            find once element
+
+        getElementsByTagName():
+            access objec element by name tag
+            output: shebhe array
+                HTML Collection
+                har index yek object hast
+
+        getElementsByClassName():
+            access objec element by name class
+            output: shebhe array
+                HTML Collection
+                har index yek object hast
+
+        querySelector():
+            access objec by selector
+            find once element
+
+        querySelectorAll():
+            access objec by selector
+            output: shebhe array
+            Node list
+            find once element
+
+    property:
+
+        nodeName:
+            name element
+            output:
+                string
+
+        nodeType:
+            number type element
+            output:
+                number
+
+        parnetNode:
+            name parent element
+            output:
+                object
+
+        first/lastChild:
+            name frist/lastChild element
+            output:
+                object
+            Note: comment to child element
+
+        innerHTML:
+            inner total content element
+            output:
+                string
+            *****************************
+
