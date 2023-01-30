@@ -500,85 +500,89 @@ string|number|boolean:
 
 type conversion:
 
-    Number() :
+    * Number() :
         convert to number
-    String() :
+    * String() :
         convert to string
-    Boolean() :
+    * Boolean() :
         convert to boolean
 
-Note:
-    space ' ':
-        Number(' ')     => convert zero
-        Boolean(' ')    => convert true
-    in "if" used Boolean method for check
-    condition
+    Note:
+        space ' ':
+            Number(' ')     => convert zero
+            Boolean(' ')    => convert true
+        in "if" used Boolean method for check
+        condition
 
-Note:
-    ever string convert to boolean is true
-    "0" => convert boolean => true
-     0  => convert boolean => false
+    Note:
+        ever string convert to boolean is true
+        "0" => convert boolean => true
+        0  => convert boolean => false
+
+    Note:
+        baray tarif variable dakhele string
+        az `${<nameVariable>}` estefade mishe
 
 ------------
 Method Array:
 
-    toString():
+    * toString():
         convert array to string
     
-    join(separator):
+    * join(separator):
         convert array to string by separator
 
-    pop():
+    * pop():
         remove end index in array
         return data index in order
 
-    delete():
+    * delete():
         remove index delkhak in array
         Note:
             remove data not index
             darnatije index empty
             mishe
 
-    push():
+    * push():
         add end index in array
     
-    nameArray.length:
+    * nameArray.length:
         add end index in array
         nameArray[nameArray.length]=new data
 
-    shift():
+    * shift():
         remove start index in array
         return data index in order
 
-    shift():
+    * shift():
         add start index in array
 
-    concat():
+    * concat():
         nameArray.concat(nameArray2,nameArray3,...)
 
-    splice(index,num,data,data,...):
+    * splice(index,num,data,data,...):
         remove after index number in array
         num : set number deleted index
         return data removed
         data : data added in array
                tedad data barabare num hast
 
-    slice(index1,index2):
+    * slice(index1,index2):
         remove after index number in array
         create new array,base array not change
         remove index1 ta ghable index2
     
-    sort():
+    * sort():
         sorted array alphabet-sort by string
 
-    reverse():
+    * reverse():
         reverse index left => right | right => left
 
-    indexOf(data):
+    * indexOf(data):
         return number index avalin
         if not found return -1
 
-    lastIndexOf(data):
+    * lastIndexOf(data):
         return number index akharin
         if not found return -1
 -------------
@@ -600,14 +604,18 @@ Method object:
         pas har taghir ba sayer eshare garha
         data asli taghir mikone
 
+-------------
+Method Math:
 
+    * random()
+        create number 0>= number >1
+        Note:
+            for create value delkhah bayad
+            method random ro zarb dar on baze
+            bekonim
 
-
-
-
-
-
-
+    * floor()
+        gerd kardan be baze payen
 
 
 
@@ -646,30 +654,138 @@ undeclared :
     total any scop : is global
 
 
-
-
-
-
-
-
-
-
-
 ----------------------------------------------
 ----------------------------------------------
-doucment.getElementById('tag id')
+DOM
 ----------------------------------------------
 ----------------------------------------------
-innerHTML=''
-------------
-document.getElementById(''tag id').innerHTML='jayeghozin';
-onclick attr ==>
-change content in html tag
-use all tag
-------------
-attribute.propertyCss='value' 
-------------
-css:
-document.getElementById('demo2').style.backgroundColor='red';
-src:
-document.getElementById('blob').src='./images/pic_bulboff.gif';
+DOM : Document Object Model
+    1- access elements html doucment
+    2-change elements html document
+    3- add elements html document
+    4- delete elements html doucment
+---------------
+DOM Tree:
+
+    doucment
+        html
+            head
+                title
+                link
+                ...
+            body
+                h1 element
+                p element
+                ...
+                ...
+
+    node: 12 noee 
+        * doucment node
+        * element node
+        * text node
+        * comment node
+
+---------------
+access element in doucment:
+
+    document.nameElement
+        output:
+            object
+        Note: access html tag 
+              doucment.doucmentElement
+        Note: access total element
+              nameTag[s]
+
+---------------
+Document Object:
+    method:
+
+        getElementById('<name id>'):
+            access object element by id
+            find once element
+
+        getElementsByTagName('<name tag>'):
+            access objec element by name tag
+            output: shebhe array
+                HTML Collection
+                har index yek object hast
+
+        getElementsByClassName('<name class>'):
+            access objec element by name class
+            output: shebhe array
+                HTML Collection
+                har index yek object hast
+
+        querySelector('<name selector css>'):
+            access objec by selector
+            find once element
+
+        querySelectorAll('<name selector css>'):
+            access objec by selector
+            output: shebhe array
+            Node list
+            find once element
+
+        *****************
+        change Attribute:
+            in DOM:
+
+                * document.<set element>.<attribute> = '<new value>';
+                Note: attribute class => className
+                for add vaule in attribute use +='new value'
+        *****************
+
+        getAttirbute('<name attribute html>')
+            access value attribute
+            output: string
+
+        setAttribute('<name attribute html>',value attribute)
+            age attribute vojod dashte bashe
+                change value
+            age attribute vojod nadashte bashe
+                create attribute
+
+        removeAttribute('<name attribute html>')
+            remove attribute in tag html 
+
+        *****************
+        change style:
+            in DOM:
+
+                * document.<set element>.style.<property> = '<new value>';
+                Note: property haye ke bish az yek kalame
+                      hastan camleCase mishan
+        *****************
+
+
+    property:
+
+        nodeName:
+            name element
+            output:
+                string
+
+        nodeType:
+            number type element
+            output:
+                number
+
+        parnetNode:
+            name parent element
+            output:
+                object
+
+        first/lastChild:
+            name frist/lastChild element
+            output:
+                object
+            Note: comment to child element
+
+        innerHTML:
+            inner total content element
+            output:
+                string
+            *****************************
+
+
+--------------
