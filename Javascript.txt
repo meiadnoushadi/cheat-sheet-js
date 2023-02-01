@@ -1,6 +1,10 @@
 **********************************************
 **********************************************
+**********************************************
+**********************************************
 milad bahrami
+**********************************************
+**********************************************
 **********************************************
 **********************************************
 ----------------------------------------------
@@ -809,9 +813,19 @@ Document Object:
 
 **********************************************
 **********************************************
+**********************************************
+**********************************************
 Ali Sheykh
 **********************************************
 **********************************************
+**********************************************
+**********************************************
+
+############
+GENERAL
+############
+
+------------
 use javascript in html :
     1- use in project inline
     2- import file.js in project by src
@@ -871,6 +885,10 @@ variable js:
         * cannot change assign in string and number and boolean
         * change value in key in object
 
+############
+DATA TYPE
+############
+
 ------------
 data type :
     1- Primitive Type:
@@ -913,13 +931,16 @@ convert type:
         * array => number |[1,2,3,..] => NaN
 
 ------------
-Math Modules:
-    + sum
-    - sub
-    * mul
-    / div
-    % mod
+number data type:
 
+    + sum numbers : jam addad
+    - sub numbers : tafrigh addad
+    * mul numbers : zarb addad
+    / div numbers : taghsim addad
+    % mod numbers : baghimande addad
+
+*********************
+Math Modules:
     property:
         Math.PI : added p
         Math.E : added neper
@@ -935,27 +956,90 @@ Math Modules:
         * max(<list of number>)   : show max addad | separator ','
         * random()                : addad beyn 0>=x>1
             Note: baray har baze bayad zarb dar on addad beshe
-        * 
+*********************
+------------
+string data type:
+
+    nemad : ' ' , " "
+
+    + sum string : concat strings
+        Note: ezafe kardan space ' ' be in sorat hast
+
+        'str1'+'str2'
+        val='str1'
+        val+='str2'
+    
+    use variable in string
+        ` => back tik
+        `string ${variable} string`
+
+    move in string:
+        <string>[i] : i is index in string
+        Ex : Ali ['A','l','i']
+
+    property:
+        <string>.length : tole reshte
+
+    method :
+        <string>.cancat(<separator>,<new string>)
+        <string>.toUpperCase()
+        <string>.toLowerCase()
+        <string>.indexOf('char') : show index in string
+        <string>.charAt('<number index>') : show char in index
+        <string>.substring(<startIndex>,<endIndex+1>) endIndex+1=> tedad entekhabi
+        <string>.slice(<startIndex>,<endIndex+1>) | out of range show self string
+        <string>.split(<separator>) | out put array 
+        <string>.replace(<oldString>,<newString>)
+        <string>.includes(<string>) : shamel bodan dar string
+
+------------
+array data type:
+
+    nemad : []
+
+    Note: any data type use in array
+          string | number | object | array | Symbol
+
+    move in array:
+        <array>[i] : i is index in array
+        Ex : [1,2,3,4,5] , i=0 => 1
+
+    insert to array:
+        <array>[i]=newValue
+
+    property:
+        <array>.length : show length array | output number
+
+    method:
+        <array>.isArray(<nameArray>) | output boolean
+        <array>.indexOf(data) : show index number data in array
+        <array>.push(data) : add data to end index array
+        <array>.unshift(data) : add data to start index array
+        <array>.pop() : remove data in end index array
+        <array>.shift() : remove data in start index array
+        <array>.splice(<startIndex>,<endIndex>) : remove az index start ta index end in array
+        <array>.reverse()
+        <array>.concat(<newArray>)
+        <array>.sort() : sort by alphabetf | for number 1.convert to string 2.sort index be index
 
 
+------------
+object data type:
 
+    nemad : {}
 
+    key:value
+    key   -> name
+    value -> string,number,array,object,function
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    access to value :
+        <nameObject>.<nameKey>
+        <nameObject>['nameKey']
+        if value functions:
+            <nameObject>.<nameFunction>()
+            Note: baray estefade az key ha dar yek
+                  step payentar bayad ghabl az on name
+                  key az keyword "this" estefade konim
 
 
 
