@@ -812,3 +812,169 @@ Document Object:
 Ali Sheykh
 **********************************************
 **********************************************
+use javascript in html :
+    1- use in project inline
+    2- import file.js in project by src
+        src ==> directory
+
+------------
+comment in js:
+    1- one line : //comment
+    2- mutiple line :
+        /*
+            comment
+        */
+
+
+
+------------
+RUN js file : 
+
+    1-console:
+        use js file wroking in browser
+        {best : test DEbog}
+        Note:
+            attribute:
+                1- .log()       => show data(string/number/array/variable/object/boolean)
+                2- .table()     => show data new views
+                3- .error()     => show error
+                4- .clear()     => clear console
+                5- .wran()      => show text warning
+                6- .time()      => start timer for calc time run code
+                7- .timeEnd()   => end timer for calc time run code
+                    Note:
+                        console.time(<name timer>)
+                            //code
+                        console.timeEnd(<name timer>)
+
+------------
+variable js:
+    1- var:
+        * initial var and assign value
+            value => input
+        * initial var
+            value => undefined
+
+        start letters,number,_,$
+            * cannot start with number
+            * the best not start by $ : JQoury
+
+
+    2- let:
+        * initial var and assign value
+            value => input
+        * initial var
+            value => undefined
+
+    3- const:
+        * cannot only initial
+        * cannot change assign in string and number and boolean
+        * change value in key in object
+
+------------
+data type :
+    1- Primitive Type:
+        String
+        Number
+        Boolean
+        Null => return object | cannot define const
+        Undefined
+        Symbol
+    
+    2- Refernce Type:
+        Array []    => return object
+        Object {}   => return object
+
+------------
+convert type:
+    1- convert to string:
+        method :    String(<variable>)
+                    <variable>.toString()
+
+            * number => string
+            * boolean => string
+            * Date => string
+            * array => string
+            * object => string
+        
+        Note: dakhele parantez tamame amaliyathaye
+        reyazi anjam mishe bad change mihse be string
+
+    2- convert to number:
+        method :    Number(<variable>)
+                    parseInt(<variable>)[Note:convert integer]
+                    parseFloat(<variable>)
+                    <variable>.toFixed(aashar)
+
+        * string number => number
+        * boolean => number | true=>1,false=>0
+        * null => number | null=>0
+        * string char => number | 'char'=>NaN(undefined number)
+        * array => number |[1,2,3,..] => NaN
+
+------------
+Math Modules:
+    + sum
+    - sub
+    * mul
+    / div
+    % mod
+
+    property:
+        Math.PI : added p
+        Math.E : added neper
+    
+    method:
+        * round(<number>)         : round down
+        * ceil(<number>)          : round up
+        * floor(<number>)         : round abslot down
+        * sqrt(<number>)          : jazeer
+        * abs(<number>)           : tabdil be added mosbat
+        * pow(<number>,<number>)  : tavan | number dovom be tavan hast
+        * min(<list of number>)   : show min addad | separator ','
+        * max(<list of number>)   : show max addad | separator ','
+        * random()                : addad beyn 0>=x>1
+            Note: baray har baze bayad zarb dar on addad beshe
+        * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+####################################################
+####################################################
+####################################################
+Date() :
+    new Data() => show new date in file
