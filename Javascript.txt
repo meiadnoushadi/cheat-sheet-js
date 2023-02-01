@@ -1041,6 +1041,160 @@ object data type:
                   step payentar bayad ghabl az on name
                   key az keyword "this" estefade konim
 
+############
+IF
+############
+--------------
+if:
+    if(something){
+        //code;
+    }else{
+        //other code;
+    }
+
+        Note : 
+            = mean assign
+            == mean compare equal value
+            === maen compare equal type and value
+            != mean compare not equal value
+            !== mean compare not equal type and value
+            > , >= or < , <=
+            && mean AND : total true => true
+            || mean OR : once of total true => true
+            //////////////////////////////////////////
+            number dar shart value true hast 
+            compare undefined : typeof <variable> !== 'undefined'
+
+--------------
+elseif:
+
+    if(something){
+        //code;
+    }elseif(something){
+        //other code;
+    }...{
+        // other elseif code
+    }else{
+        //other code;
+    }
+
+--------------
+shortcute if :
+
+    something ? <return true code> : <return false code>
+
+
+############
+SWITCH
+############
+structure switch:
+    switch(key){
+        case value1:
+            //code;
+            break;
+        case value2:
+            //code;
+            break;
+        case value3:
+            //code;
+            break;
+        default:
+            //code;
+            break;
+    }
+
+############
+FUNCTION
+############
+------------
+function Declarations:
+    function <nameFunction>(<input>){
+        //code;
+        return output
+    }
+
+    farakhani => <nameFunction>(<arguments>)
+        dar farakhani age az ghabl maghadir pish farz
+        dade nashode bashe return NaN mishe vale age
+        maghadir pish farz dade shode bashe ba tavajo
+        be maghadir pish farz yek hasele baraye ma miyare
+
+------------
+function Expresions:
+    
+    var/const/let <nameFunction> = function(<input>){
+        //code
+        return output
+    }
+
+    farakhani => <nameFunction>(<arguments>)
+        dar farakhani age az ghabl maghadir pish farz
+        dade nashode bashe return NaN mishe vale age
+        maghadir pish farz dade shode bashe ba tavajo
+        be maghadir pish farz yek hasele baraye ma miyare
+
+    Note: farghe function Declarations ba Expresions
+          dar in hast ke dar halat Declarations mofaser
+          javascript be mahze
+          ejar tamame function ro mikhone aval bad mire
+          soraghe run kardan code ha vali dar halat Expresions
+          chon ma be yek variable function ro pass dadim pas
+          mofaser on ro ghabl az ejar code ha nemikhone
+
+------------
+arrow function:
+    1. var/const/let <nameFunction> = (<parameter>) => {
+        //code
+        return output
+        }
+
+    2. var/const/let <nameFunction> = <one input> => output
+
+    Note: use to input hatam bayad az () estefade kard
+          va age ham hich input nadashte bashim bayad hatman
+          () ro bezarim
+------------
+immidiatley invokable function expressions - IIFEs
+
+(function(){
+    //code;
+})();
+
+(function(<parameter>){//code;})(<arguments>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
