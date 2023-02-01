@@ -57,6 +57,9 @@
 // start video 112
 
 
+
+
+
 // document.getElementById('id').className='box2'
 
 // let div = document.getElementById('box');
@@ -66,22 +69,34 @@
 // console.log(div.setAttribute('title','meiad'));
 // console.log(div.removeAttribute('title'));
 
+
+
+
+
 // let div = document.getElementById('style');
 
-function randNum(){
-    return Math.floor(Math.random()*256);
-};
-function randColor(){
-    return `rgb(${randNum()},${randNum()},${randNum()})`
-};
-function changeColor(){
-    document.body.style.backgroundColor=randColor();
-}
+// function randNum(){
+//     return Math.floor(Math.random()*256);
+// };
+// function randColor(){
+//     return `rgb(${randNum()},${randNum()},${randNum()})`
+// };
+// function changeColor(){
+//     document.body.style.backgroundColor=randColor();
+// }
 
-console.log(randNum())
-console.log(randColor())
+// console.log(randNum());
+// console.log(randColor());
 
 
+
+
+
+let div=document.getElementById('main');
+
+let elementStyle=getComputedStyle(div);
+console.log(elementStyle.width);
+console.log(elementStyle.backgroundColor);
 
 
 

@@ -1,3 +1,8 @@
+**********************************************
+**********************************************
+milad bahrami
+**********************************************
+**********************************************
 ----------------------------------------------
 ----------------------------------------------
 comment
@@ -700,27 +705,27 @@ access element in doucment:
 Document Object:
     method:
 
-        getElementById('<name id>'):
+        * getElementById('<name id>'):
             access object element by id
             find once element
 
-        getElementsByTagName('<name tag>'):
+        * getElementsByTagName('<name tag>'):
             access objec element by name tag
             output: shebhe array
                 HTML Collection
                 har index yek object hast
 
-        getElementsByClassName('<name class>'):
+        * getElementsByClassName('<name class>'):
             access objec element by name class
             output: shebhe array
                 HTML Collection
                 har index yek object hast
 
-        querySelector('<name selector css>'):
+        * querySelector('<name selector css>'):
             access objec by selector
             find once element
 
-        querySelectorAll('<name selector css>'):
+        * querySelectorAll('<name selector css>'):
             access objec by selector
             output: shebhe array
             Node list
@@ -735,17 +740,17 @@ Document Object:
                 for add vaule in attribute use +='new value'
         *****************
 
-        getAttirbute('<name attribute html>')
+        * getAttirbute('<name attribute html>')
             access value attribute
             output: string
 
-        setAttribute('<name attribute html>',value attribute)
+        * setAttribute('<name attribute html>',value attribute)
             age attribute vojod dashte bashe
                 change value
             age attribute vojod nadashte bashe
                 create attribute
 
-        removeAttribute('<name attribute html>')
+        * removeAttribute('<name attribute html>')
             remove attribute in tag html 
 
         *****************
@@ -755,37 +760,55 @@ Document Object:
                 * document.<set element>.style.<property> = '<new value>';
                 Note: property haye ke bish az yek kalame
                       hastan camleCase mishan
+
+                    Note:
+                        in noee style dehi besorat inline
+                        miyad va asar mikone
         *****************
 
+        * getComputeStyle(<selectedElement>.property)
 
-    property:
+        property:
 
-        nodeName:
-            name element
-            output:
-                string
+            nodeName:
+                name element
+                output:
+                    string
 
-        nodeType:
-            number type element
-            output:
-                number
+            nodeType:
+                number type element
+                output:
+                    number
 
-        parnetNode:
-            name parent element
-            output:
-                object
+            parnetNode:
+                name parent element
+                output:
+                    object
 
-        first/lastChild:
-            name frist/lastChild element
-            output:
-                object
-            Note: comment to child element
+            first/lastChild:
+                name frist/lastChild element
+                output:
+                    object
+                Note: comment to child element
 
-        innerHTML:
-            inner total content element
-            output:
-                string
-            *****************************
+            innerHTML:
+                inner total content element
+                output:
+                    string
+                *****************************
 
 
 --------------
+
+
+
+
+
+
+
+
+**********************************************
+**********************************************
+Ali Sheykh
+**********************************************
+**********************************************
