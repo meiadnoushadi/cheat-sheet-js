@@ -41,7 +41,35 @@
 // console.log(typeof val);
 // console.log(val.length)
 
-console.log(new Date())
-console.log(typeof new Date())
+// console.log(new Date())
+// console.log(typeof new Date())
 
-console.log(Number('ali'))
+// console.log(Number('ali'))
+
+// cars=['m','cars.map(i=>{
+//     console.log(i)
+// })
+// cars=['n','r','k']
+// cars.forEach(i => {
+//     console.log(i)
+// });
+
+let person = new Map();
+person.set('person1',{
+    firstName:'meiad',
+    lastName:'noushadi'
+});
+//
+// console.log(person)
+
+person.set('person2',{
+    firstName:'ali',
+    lastName:'reazaei'
+})
+
+person.set('string','just a text')
+console.log(person)
+
+console.log(person.get('person1'))
+console.log(person.get('string'))
+console.log(person.get('person1').firstName)

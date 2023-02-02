@@ -1,0 +1,3 @@
+multiple select : Ctrl + J
+cursor multiple select : Alt + click
+duplicate line : Ctrl + D

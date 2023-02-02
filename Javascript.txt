@@ -28,7 +28,7 @@ Display
 ----------------------------------------------
 HTML element,using : innerHTML
 HTML output using : document.write()
-alert box : window.alret()
+alert box : window.alert()
 console using : console.log()
 
 HTML element,using : innerHTML
@@ -1162,21 +1162,102 @@ immidiatley invokable function expressions - IIFEs
 
 (function(<parameter>){//code;})(<arguments>)
 
+############
+LOOP
+############
+------------
+for:
+    default:
+        for(let <variable> =0; <variable> < <domain>;<variable>++){
+            //code
+        }
+
+        Note: move in array in default for
+
+    for in:
+        for(<index | key> in <nameArray>){
+            //code
+        }
+
+    forEach:
+        <nameArray>.forEach(function(<parameter>){
+            //code
+        })
+
+        Note: parameter mean number index in array
+        <nameArray>.forEach(<indexArray> => {
+            //code
+        })
+
+    map:
+        <nameArray>.map(<indexArray> => {
+            //code
+        })
 
 
 
+------------
+while:
+    1.
+    let <variable> = <number>;
+    while(<variable> < <domain>){
+        //code
+        <variable>++;
+    }
+
+    2.
+    do{
+        //code
+        <variable>++;
+    }while(<variable> < <domain>)
+
+    Note: tafavot dar in hast ke age do while yek bar
+          anjam mishe
 
 
+############
+SCOPE
+############
+function scop:
+    dar block function ha maghadir var,const,let
+    makhsos function hast va ba maghadir variable ha
+    biron kamel fargh mikone
+
+if scope:
+    dar if tanha maghadir var change mishe va in maghadir
+    dar biron az if taghirat baghi mimone
+
+var:
 
 
+let:
 
 
+const:
+    show in volor 
+############
+Map()
+############
+defined:
+    <nameVariable> = new Map()
 
+assign:
+    <nameVariable>.set(<nameKey>,<every value>)
+    value:
+        string| number | array | object | function
 
+access:
+    <nameVariable>.get(<nameKey>)
+    <nameVariable>.get('<nameKey>').<KeyInObject>
 
+size:
+    <nameVariable>.size : show index in map
 
+has:
+    <nameVariable>.has(<nameKey>) : find key in map | output boolean
 
-
+delet:
+    <nameVariable>.delete(<nameKey>
 
 
 
