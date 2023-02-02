@@ -54,22 +54,27 @@
 //     console.log(i)
 // });
 
-let person = new Map();
-person.set('person1',{
-    firstName:'meiad',
-    lastName:'noushadi'
-});
+// let person = new Map();
+// person.set('person1',{
+//     firstName:'meiad',
+//     lastName:'noushadi'
+// });
+// //
+// // console.log(person);
 //
-// console.log(person)
+// person.set('person2','ali');
+//
+// person.set('string','just a text');
+// console.log(person);
+// console.log();
+//
+// console.log(person.get('person1'));
+// console.log(person.get('string'));
+// console.log(person.get('person1').firstName);
 
-person.set('person2',{
-    firstName:'ali',
-    lastName:'reazaei'
-})
-
-person.set('string','just a text')
-console.log(person)
-
-console.log(person.get('person1'))
-console.log(person.get('string'))
-console.log(person.get('person1').firstName)
+// const set1= new Set();
+// set1.add(100);
+// set1.add(12);
+// console.log(set1);
+// console.log(typeof set1)
+// console.log(set1)

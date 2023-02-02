@@ -4,3 +4,6 @@ duplicate line : Ctrl + D
 move line : shift + Alt + up/down
 switch open tab : Alt + Right/Left
 quit vim : for quit vim not use Esc => use Ctrl+C
+open settings : Ctrl + Alt + S
+open terminal Default : Alt + F12 | modified : Shift + Q
+run file : Shift + F10

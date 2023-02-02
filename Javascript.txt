@@ -1218,11 +1218,13 @@ while:
 ############
 SCOPE
 ############
+------------
 function scop:
     dar block function ha maghadir var,const,let
     makhsos function hast va ba maghadir variable ha
     biron kamel fargh mikone
 
+------------
 if scope:
     dar if tanha maghadir var change mishe va in maghadir
     dar biron az if taghirat baghi mimone
@@ -1234,52 +1236,129 @@ let:
 
 
 const:
-    show in volor 
+
 ############
 Map()
 ############
+------------
 defined:
     <nameVariable> = new Map()
 
+------------
 assign:
     <nameVariable>.set(<nameKey>,<every value>)
     value:
         string| number | array | object | function
 
+------------
 access:
     <nameVariable>.get(<nameKey>)
     <nameVariable>.get('<nameKey>').<KeyInObject>
 
+------------
 size:
     <nameVariable>.size : show index in map
 
+------------
 has:
     <nameVariable>.has(<nameKey>) : find key in map | output boolean
 
-delet:
-    <nameVariable>.delete(<nameKey>
+------------
+delete:
+    <nameVariable>.delete(<nameKey>)
 
+------------
+clear:
+    <nameVariable>.clear()
+    Note: clear total map
 
+############
+Set()
+############
+------------
+defined:
+    <nameVariable> = new Set()
 
+Note : set similar array : tafavot dar in hast ke maghadir bayad yonik
+       bashe dar Set()
 
+------------
+add:
+    <nameSet>.add(data)
+    mishe maghadir tekrari dad vali yeki ro bishtar emal nemikone
 
+    Note : add mostaghim
+           Ex : const <nameVariable> = new Set([1,2,3,4])
+------------
+size:
+    <nameVariable>.size : show index in set
 
+------------
+has:
+    <nameVariable>.has(<nameKey>) : find key in set | output boolean
+    Note : data reference => object and array has find false
 
+------------
+delete:
+    <nameVariable>.delete(<nameKey>)
 
+------------
+clear:
+    <nameVariable>.clear()
+    Note: clear total map
 
+############
+Destructuring Assignment
+############
+------------
+initial variables:
 
+    [var1,var2]=[value1,value2]
+    tedad variable ha ba value ha barabar hast
 
+    {a,b}={a:value1,b:value2}
 
+------------
+rest pattern:
 
+    [var1,var2,...var3]=[1,2,3,4,5,6]
+    var 1=1
+    var 2=2
+    var 3=[4,5,6]
+    ... var3 : hatman dar akhar bashe
 
+    [var1,var2,...var3]=[1,2,3,4,5,6]
+    var 1=1
+    var 2=2
+    var 3=[4,5,6]
+    ... var3 : hatman dar akhar bashe
 
+------------
+array pattern:
 
+    const <nameArray> = [value1,value2,value3]
+    const [var1,var2,var3]=<nameArray>
+        var1=value1
+        var2=value2
+        var3=value3
 
+------------
+object pattern:
 
+    const perosn={
+        name:'ali',
+        age:27,
+        function1:functin(){
+            //code
+        }
+    }
 
+    const {Name , Age , Function}=person
+        Name = person.name
+        Age = person.age
+        Function = function1
 
-
-
+    Note : for call Function : Function() => call function1()
 
 
 
