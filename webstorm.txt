@@ -1,3 +1,6 @@
 multiple select : Ctrl + J
 cursor multiple select : Alt + click
 duplicate line : Ctrl + D
+move line : shift + Alt + up/down
+switch open tab : Alt + Right/Left
+quit vim : for quit vim not use Esc => use Ctrl+C
