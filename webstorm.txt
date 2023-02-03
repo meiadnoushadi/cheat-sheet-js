@@ -1,9 +1,14 @@
-multiple select : Ctrl + J
+multiple select : Alt + J
 cursor multiple select : Alt + click
 duplicate line : Ctrl + D
 move line : shift + Alt + up/down
 switch open tab : Alt + Right/Left
 quit vim : for quit vim not use Esc => use Ctrl+C
 open settings : Ctrl + Alt + S
-open terminal Default : Alt + F12 | modified : Shift + Q
+open terminal Default : Alt + 2
+open Run : Alt + 4
+open bookmarks : Alt + F12
 run file : Shift + F10
+show and hide slider => Alt + 1
+block comments : Ctrl + Shift + /
+select line : Ctrl + W

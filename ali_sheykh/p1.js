@@ -1,6 +1,4 @@
-// alert('سلام');
-
-// log to console
+// log to console;
 
 // console.log('hello console')
 
@@ -78,3 +76,33 @@
 // console.log(set1);
 // console.log(typeof set1)
 // console.log(set1)
+
+// const products=[
+//     {name:'ipad',category:'devices'},
+//     {name:'LG',category:'tv'}
+// ];
+//
+// const result = products[0].category=='tv';
+// console.log(result)
+
+//
+// const result=products.filter(function(product){
+//     return product.category=='tv'
+// });
+// console.log(result)
+
+// export const sum=30;
+// export const newSum=50;
+// export function fun1(){
+//     return Math.floor(Math.random()*20)
+// }
+//
+// const sum=30;
+// const newSum=50;
+// export {
+//     sum as sum1,
+//     newSum
+// }
+// export default sum;
+
+console.log('x')

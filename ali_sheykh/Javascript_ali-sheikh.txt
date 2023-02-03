@@ -1,0 +1,724 @@
+*****************************************
+*******************BASE******************
+*****************************************
+
+############
+GENERAL
+############
+
+------------
+use javascript in html :
+    1- use in project inline
+    2- import file.js in project by src ==> directory
+
+------------
+comment in js:
+    1- one line : //comment
+    2- mutiple line :
+        /*
+            comment
+        */
+
+
+
+------------
+RUN js file : 
+
+    1-console:
+        use js file wroking in browser
+        {best : test DEbog}
+        Note:
+            attribute:
+                1- .log()       => show data(string/number/array/variable/object/boolean)
+                2- .table()     => show data new views
+                3- .error()     => show error
+                4- .clear()     => clear console
+                5- .wran()      => show text warning
+                6- .time()      => start timer for calc time run code
+                7- .timeEnd()   => end timer for calc time run code
+                    Note:
+                        console.time(<name timer>)
+                            //code
+                        console.timeEnd(<name timer>)
+
+------------
+variable js:
+    1- var:
+        * initial var and assign value
+            value => input
+        * initial var
+            value => undefined
+
+        start letters,number,_,$
+            * cannot start with number
+            * the best not start by $ : JQoury
+
+
+    2- let:
+        * initial var and assign value
+            value => input
+        * initial var
+            value => undefined
+
+    3- const:
+        * cannot only initial
+        * cannot change assign in string and number and boolean
+        * change value in key in object
+
+############
+DATA TYPE
+############
+
+------------
+data type :
+    1- Primitive Type:
+        String
+        Number
+        Boolean
+        Null => return object | cannot define const
+        Undefined
+        Symbol
+    
+    2- Refernce Type:
+        Array []    => return object
+        Object {}   => return object
+
+------------
+convert type:
+    1- convert to string:
+        method :    String(<variable>)
+                    <variable>.toString()
+
+            * number => string
+            * boolean => string
+            * Date => string
+            * array => string
+            * object => string
+        
+        Note: dakhele parantez tamame amaliyathaye
+        reyazi anjam mishe bad change mihse be string
+
+    2- convert to number:
+        method :    Number(<variable>)
+                    parseInt(<variable>)[Note:convert integer]
+                    parseFloat(<variable>)
+                    <variable>.toFixed(aashar)
+
+        * string number => number
+        * boolean => number | true=>1,false=>0
+        * null => number | null=>0
+        * string char => number | 'char'=>NaN(undefined number)
+        * array => number |[1,2,3,..] => NaN
+
+------------
+number data type:
+
+    + sum numbers : jam addad
+    - sub numbers : tafrigh addad
+    * mul numbers : zarb addad
+    / div numbers : taghsim addad
+    % mod numbers : baghimande addad
+
+*********************
+Math Modules:
+    property:
+        Math.PI : added p
+        Math.E : added neper
+    
+    method:
+        * round(<number>)         : round down
+        * ceil(<number>)          : round up
+        * floor(<number>)         : round abslot down
+        * sqrt(<number>)          : jazeer
+        * abs(<number>)           : tabdil be added mosbat
+        * pow(<number>,<number>)  : tavan | number dovom be tavan hast
+        * min(<list of number>)   : show min addad | separator ','
+        * max(<list of number>)   : show max addad | separator ','
+        * random()                : addad beyn 0>=x>1
+            Note: baray har baze bayad zarb dar on addad beshe
+*********************
+------------
+string data type:
+
+    nemad : ' ' , " "
+
+    + sum string : concat strings
+        Note: ezafe kardan space ' ' be in sorat hast
+
+        'str1'+'str2'
+        val='str1'
+        val+='str2'
+    
+    use variable in string
+        ` => back tik
+        `string ${variable} string`
+
+    move in string:
+        <string>[i] : i is index in string
+        Ex : Ali ['A','l','i']
+
+    property:
+        <string>.length : tole reshte
+
+    method :
+        <string>.cancat(<separator>,<new string>)
+        <string>.toUpperCase()
+        <string>.toLowerCase()
+        <string>.indexOf('char') : show index in string
+        <string>.charAt('<number index>') : show char in index
+        <string>.substring(<startIndex>,<endIndex+1>) endIndex+1=> tedad entekhabi
+        <string>.slice(<startIndex>,<endIndex+1>) | out of range show self string
+        <string>.split(<separator>) | out put array 
+        <string>.replace(<oldString>,<newString>)
+        <string>.includes(<string>) : shamel bodan dar string
+
+------------
+array data type:
+
+    nemad : []
+
+    Note: any data type use in array
+          string | number | object | array | Symbol
+
+    move in array:
+        <array>[i] : i is index in array
+        Ex : [1,2,3,4,5] , i=0 => 1
+
+    insert to array:
+        <array>[i]=newValue
+
+    property:
+        <array>.length : show length array | output number
+
+    method:
+        <array>.isArray(<nameArray>) | output boolean
+        <array>.indexOf(data) : show index number data in array
+        <array>.push(data) : add data to end index array
+        <array>.unshift(data) : add data to start index array
+        <array>.pop() : remove data in end index array
+        <array>.shift() : remove data in start index array
+        <array>.splice(<startIndex>,<endIndex>) : remove az index start ta index end in array
+        <array>.reverse()
+        <array>.concat(<newArray>)
+        <array>.sort() : sort by alphabetf | for number 1.convert to string 2.sort index be index
+
+
+------------
+object data type:
+
+    nemad : {}
+
+    key:value
+    key   -> name
+    value -> string,number,array,object,function
+
+    access to value :
+        <nameObject>.<nameKey>
+        <nameObject>['nameKey']
+        if value functions:
+            <nameObject>.<nameFunction>()
+            Note: baray estefade az key ha dar yek
+                  step payentar bayad ghabl az on name
+                  key az keyword "this" estefade konim
+
+############
+IF
+############
+--------------
+if:
+    if(something){
+        //code;
+    }else{
+        //other code;
+    }
+
+        Note : 
+            = mean assign
+            == mean compare equal value
+            === maen compare equal type and value
+            != mean compare not equal value
+            !== mean compare not equal type and value
+            > , >= or < , <=
+            && mean AND : total true => true
+            || mean OR : once of total true => true
+            //////////////////////////////////////////
+            number dar shart value true hast 
+            compare undefined : typeof <variable> !== 'undefined'
+
+--------------
+elseif:
+
+    if(something){
+        //code;
+    }elseif(something){
+        //other code;
+    }...{
+        // other elseif code
+    }else{
+        //other code;
+    }
+
+--------------
+shortcute if :
+
+    something ? <return true code> : <return false code>
+
+
+############
+SWITCH
+############
+structure switch:
+    switch(key){
+        case value1:
+            //code;
+            break;
+        case value2:
+            //code;
+            break;
+        case value3:
+            //code;
+            break;
+        default:
+            //code;
+            break;
+    }
+
+############
+FUNCTION
+############
+------------
+function Declarations:
+    function <nameFunction>(<input>){
+        //code;
+        return output
+    }
+
+    farakhani => <nameFunction>(<arguments>)
+        dar farakhani age az ghabl maghadir pish farz
+        dade nashode bashe return NaN mishe vale age
+        maghadir pish farz dade shode bashe ba tavajo
+        be maghadir pish farz yek hasele baraye ma miyare
+
+------------
+function Expresions:
+    
+    var/const/let <nameFunction> = function(<input>){
+        //code
+        return output
+    }
+
+    farakhani => <nameFunction>(<arguments>)
+        dar farakhani age az ghabl maghadir pish farz
+        dade nashode bashe return NaN mishe vale age
+        maghadir pish farz dade shode bashe ba tavajo
+        be maghadir pish farz yek hasele baraye ma miyare
+
+    Note: farghe function Declarations ba Expresions
+          dar in hast ke dar halat Declarations mofaser
+          javascript be mahze
+          ejar tamame function ro mikhone aval bad mire
+          soraghe run kardan code ha vali dar halat Expresions
+          chon ma be yek variable function ro pass dadim pas
+          mofaser on ro ghabl az ejar code ha nemikhone
+
+------------
+arrow function:
+    1. var/const/let <nameFunction> = (<parameter>) => {
+        //code
+        return output
+        }
+
+    2. var/const/let <nameFunction> = <one input> => output
+
+    Note: use to input hatam bayad az () estefade kard
+          va age ham hich input nadashte bashim bayad hatman
+          () ro bezarim
+------------
+immidiatley invokable function expressions - IIFEs
+
+(function(){
+    //code;
+})();
+
+(function(<parameter>){//code;})(<arguments>)
+
+############
+LOOP
+############
+------------
+for:
+    default:
+        for(let <variable> =0; <variable> < <domain>;<variable>++){
+            //code
+        }
+
+        Note: move in array in default for
+
+    for in:
+        for(<index | key> in <nameArray>){
+            //code
+        }
+
+    forEach:
+        <nameArray>.forEach(function(<parameter>){
+            //code
+        })
+
+        Note: parameter mean number index in array
+        <nameArray>.forEach(<indexArray> => {
+            //code
+        })
+
+    map:
+        <nameArray>.map(<indexArray> => {
+            //code
+        })
+
+
+
+------------
+while:
+    1.
+    let <variable> = <number>;
+    while(<variable> < <domain>){
+        //code
+        <variable>++;
+    }
+
+    2.
+    do{
+        //code
+        <variable>++;
+    }while(<variable> < <domain>)
+
+    Note: tafavot dar in hast ke age do while yek bar
+          anjam mishe
+
+
+############
+SCOPE
+############
+------------
+function scop:
+    dar block function ha maghadir var,const,let
+    makhsos function hast va ba maghadir variable ha
+    biron kamel fargh mikone
+
+------------
+if scope:
+    dar if tanha maghadir var change mishe va in maghadir
+    dar biron az if taghirat baghi mimone
+
+var:
+
+
+let:
+
+
+const:
+
+############
+Map()
+############
+------------
+defined:
+    <nameVariable> = new Map()
+
+------------
+assign:
+    <nameVariable>.set(<nameKey>,<every value>)
+    value:
+        string| number | array | object | function
+
+------------
+access:
+    <nameVariable>.get(<nameKey>)
+    <nameVariable>.get('<nameKey>').<KeyInObject>
+
+------------
+size:
+    <nameVariable>.size : show index in map
+
+------------
+has:
+    <nameVariable>.has(<nameKey>) : find key in map | output boolean
+
+------------
+delete:
+    <nameVariable>.delete(<nameKey>)
+
+------------
+clear:
+    <nameVariable>.clear()
+    Note: clear total map
+
+############
+Set()
+############
+------------
+defined:
+    <nameVariable> = new Set()
+
+Note : set similar array : tafavot dar in hast ke maghadir bayad yonik
+       bashe dar Set()
+
+------------
+add:
+    <nameSet>.add(data)
+    mishe maghadir tekrari dad vali yeki ro bishtar emal nemikone
+
+    Note : add mostaghim
+           Ex : const <nameVariable> = new Set([1,2,3,4])
+------------
+size:
+    <nameVariable>.size : show index in set
+
+------------
+has:
+    <nameVariable>.has(<nameKey>) : find key in set | output boolean
+    Note : data reference => object and array has find false
+
+------------
+delete:
+    <nameVariable>.delete(<nameKey>)
+
+------------
+clear:
+    <nameVariable>.clear()
+    Note: clear total map
+
+############
+Destructuring Assignment
+############
+------------
+initial variables:
+
+    [var1,var2]=[value1,value2]
+    tedad variable ha ba value ha barabar hast
+
+    {a,b}={a:value1,b:value2}
+
+------------
+rest pattern:
+
+    [var1,var2,...var3]=[1,2,3,4,5,6]
+    var 1=1
+    var 2=2
+    var 3=[4,5,6]
+    ... var3 : hatman dar akhar bashe
+
+    [var1,var2,...var3]=[1,2,3,4,5,6]
+    var 1=1
+    var 2=2
+    var 3=[4,5,6]
+    ... var3 : hatman dar akhar bashe
+
+------------
+array pattern:
+
+    const <nameArray> = [value1,value2,value3]
+    const [var1,var2,var3]=<nameArray>
+        var1=value1
+        var2=value2
+        var3=value3
+
+------------
+object pattern:
+
+    const perosn={
+        name:'ali',
+        age:27,
+        function1:functin(){
+            //code
+        }
+    }
+
+    const {Name , Age , Function}=person
+        Name = person.name
+        Age = person.age
+        Function = function1
+
+    Note : for call Function : Function() => call function1()
+
+############
+filter/find
+############
+filter:
+    define:
+        <nameVariable>.filter(function(){
+                //code
+           })
+
+        Note: return tamame object filter shode
+
+find:
+    define:
+        <nameVariable>.find(function(){
+                //code
+           })
+
+        Note: return avalin object find shode
+********************************************
+*******************MODULES******************
+********************************************
+
+############
+Modules
+############
+Note: use modules by tag script in html file
+      add attribute type='module'
+
+Note: for use modules work protocol {run server}
+
+import:
+    structure:
+        import {nameVariables} from 'path/file.js'
+
+Note:baray import tamami data ha
+    import * as <nameFile> from 'path/file.js'
+
+Note: age export keyword "default" estefade kardin
+      dige dar import niyaze be {} nist va dar har
+      file .js faghat yek export default darim
+
+export:
+    gabl az name motaghaer kalame export ro minevisim
+    other way to export modules:
+        export{
+            function,class
+        }
+
+Note: use function:
+    export function <nameFun>(<parameter>){
+        //code
+    }
+
+    import {<nameFun>} from 'path/file.js'
+
+Note: alias => <nameVariable> as <newNameVariable>
+
+
+****************************************
+*******************BOM******************
+****************************************
+############
+WINDOW
+############
+BOM : Browser Object Model
+    * screen
+    * navigator
+    * location
+    * history
+    * frames[]
+    * document:(DOM)
+        # forms[]
+        # anchors[]
+        # applets[]
+        # layers[]
+        ...
+
+Note : window dar avale hame order ha
+       hast:
+            window.console.log(<var>)
+            window.alert(<var>)
+
+sample order in BOM:
+    * console.log()
+    * screen => work in screen browser
+        # alert()  => pop alert
+        # prompt() => pop input
+                      const var = prompt()
+        # confirm  => pop warning
+            confirm ok : true
+            confirm cancel : false
+        # outerHeight => height window
+        # outerWidth => width window
+        # innerHeight => height show window
+        # innerWidth => width show window
+        # scrollY => height size scroll
+        # scrollX => width size scroll
+    * location => show location details browser
+        # hostname
+        # prot
+        # href : for redirect : new address
+        # search
+        # reload
+    * history => history in browser
+        # length : tedad konesh ha
+    * navigator => show main details browser
+        # appName
+        # appVersion
+        # userAgent
+        # vendor
+        # language
+
+
+    * document:
+        DOM : document object model
+        Root Element : html
+            - body
+                - h1
+                    - attribute
+                    - content
+                - a
+                    - attribute
+                    - content
+                - ...
+                    - ...
+                    - ...
+            - head
+                - title
+                    - attribute
+                    - content
+                - meta
+                    - attribute
+                    - content
+                - link
+                    - attribute
+                    - content
+                - ...
+                    - ...
+                    - ...
+        # all : collections all details | array
+            $ all[index]
+            $ all.length : tole document
+        # head : show head tag
+        # body : show body tag
+        # doctype : show doctype
+        # url
+        # characterSet : bare farsi UTF-8
+        # contentType
+        # forms : show collection tag form in html
+            $ forms[index]
+            $ forms[index].id
+            $ forms[index].method
+        # links : show collection tag a in array
+            $ links[index]
+            $ links[index].id
+            $ links[index].className
+            $ links[index].classList
+        # scripts : show collection tag script in array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+Date() :
+    new Data() => show new date in file
