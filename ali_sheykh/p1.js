@@ -110,3 +110,34 @@
 // const ele=document.querySelector('h1')
 // console.log(ele.id)
 // console.log(ele.className)
+
+
+// localStorage.setItem({'name':'meiad'}) // error
+// console.log(localStorage)
+// localStorage.setItem('family','noushadi')
+// sessionStorage.setItem('name','meiad')
+// sessionStorage.setItem('family','noushadi')
+
+console.log('meiad');
+console.log(32);
+console.log(true,false);
+console.log(null);
+console.log(undefined);
+let sym=Symbol();
+console.log(sym);
+console.log([1,2,3,4,5]);
+console.log({'name':'meiad','age':29});
+
+
+
+
+
+
+
+
+
+
+
+
+
+

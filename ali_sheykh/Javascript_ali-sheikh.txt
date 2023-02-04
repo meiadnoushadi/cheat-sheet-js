@@ -908,8 +908,32 @@ event:
 
 	* offsetX : noghteye dar X box element
 
+****************************************
+****************Storage*****************
+****************************************
+localStorage:
+	Note: save data bad az close kardan browser
+	Note: age key tekrari behesh bedim miyad va
+		  value haro jaygozin mikone
+	.setItem(key,value)
+	.removeItem(key)
+	.getItem(key)
+	.claer()
+
+sessionStorage:
+	Note: not save data bad az close kardan browser
+
+cookies:
 
 
+
+**************************
+JSON:
+	property:
+
+	method:
+		* stringify(<datatype>) => convert datatype{array,object} to string
+		* parse(<string>) => convert string to datatype{array , object}
 
 
 
