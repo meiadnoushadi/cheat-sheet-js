@@ -105,4 +105,8 @@
 // }
 // export default sum;
 
-console.log('x')
+// console.log('x')
+
+// const ele=document.querySelector('h1')
+// console.log(ele.id)
+// console.log(ele.className)

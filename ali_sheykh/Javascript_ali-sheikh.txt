@@ -699,10 +699,214 @@ sample order in BOM:
             $ links[index].classList
         # scripts : show collection tag script in array
 
+##########
+select
+##########
+@single-------------------------------------
+1-document.getElementById(<nameId>)
+    access attribute:
+        id: name id
+        className : name class
+        classList : list name class
+        style: access style in line element
+            access style:
+                access be tamame style haye css
+                Note: baray chand kalamei
+                      camelCase hastan.
+                Ex : background-color=>backgroundColor
+
+    access content:
+        textContent: text only
+        innerText : text only
+        innerHTML : can add element html
+
+2-document.querySelector(<selectorCSS>)
+    Note: access one element by selector
+    access to selector CSS:
+        '#<nameId>'
+        '.<nameClass>'
+        '<nameTag>'
+        '<nameTag> <nameTag>'
+            access attribute:
+                id: name id
+                className : name class
+                classList : list name class
+                style: access style in line element
+                    access style:
+                        access be tamame style haye css
+                        Note: baray chand kalamei
+                              camelCase hastan.
+                        Ex : background-color=>backgroundColor
+
+            access content:
+                textContent: text only
+                innerText : text only
+                innerHTML : can add element html
+
+@multiple--------------------------------------
+3-document.getElementsByClassName(<nameClass>)
+    access attribute:
+        id: name id
+        className : name class
+        classList : list name class
+        style: access style in line element
+            access style:
+                access be tamame style haye css
+                Note: baray chand kalamei
+                      camelCase hastan.
+                Ex : background-color=>backgroundColor
+
+    access content:
+        textContent: text only
+        innerText : text only
+        innerHTML : can add element htm
+
+    Note: dastresi daghightar
+        document.querySelector().getElementByClassName()
+
+4-document.getElementsByTagName(<nameTag>)
+    access attribute:
+        id: name id
+        className : name class
+        classList : list name class
+        style: access style in line element
+            access style:
+                access be tamame style haye css
+                Note: baray chand kalamei
+                      camelCase hastan.
+                Ex : background-color=>backgroundColor
+
+    access content:
+        textContent: text only
+        innerText : text only
+        innerHTML : can add element htm
+
+5-document.qureySelectorAll(<selectorCSS>)
+    Note: access list element by selector
+    access to selector CSS:
+        '#<nameId>'
+        '.<nameClass>'
+        '<nameTag>'
+        '<nameTag> <nameTag>'
+            access attribute:
+                id: name id
+                className : name class
+                classList : list name class
+                style: access style in line element
+                    access style:
+                        access be tamame style haye css
+                        Note: baray chand kalamei
+                              camelCase hastan.
+                        Ex : background-color=>backgroundColor
+
+            access content:
+                textContent: text only
+                innerText : text only
+                innerHTML : can add element html
+
+    Note: pymayesh ba forEach
+
+##########
+Node
+##########
+bad az access shodan be on element
+    .childNodes => all char be onvane child dar nazar migire
+    .children => all element(html) : type list
+        access attribute:
+            id: name id
+            className : name class
+            classList : list name class
+            style: access style in line element
+                access style:
+                    access be tamame style haye css
+                    Note: baray chand kalamei
+                          camelCase hastan.
+                    Ex : background-color=>backgroundColor
+
+        access content:
+            textContent: text only
+            innerText : text only
+            innerHTML : can add element html
+        Note:.children[<index>].children | nested
+    .firstChild => access first child char | "all char be onvane child dar nazar migire"
+    .lastChild  => access lat child char | "all char be onvane child dar nazar migire"
+    .firstElementChild => access first child element | shabihe chidren
+    .listElementChild => access last child element | shabihe chidren
+    .childElementCount => show number az tedad
+    .parentNode => show parent char
+    .parentElement => show parent element
+        Note:.parentElement[<index>].parentElement | nested
+    .nextSibling => select hamzade on char dar in scope
+    .nextElementSibling => select hamzade on element dar in scope
+    .previousSibling => select hamzade ghabli on char dar in scope
+    .previousElementSibling => select hamzade ghabli on element dar in scope
 
 
+##########
+create|assign | replace | delete
+##########
+create | assign:
+	baray sakht yek element : document.createElement(<nameTag>)
+	<nameTag>.className = <nameClass> => dadane class be sorate mostaghim
+	<nameTag>.nameId = <nameId> => dadane id be sorate mostaghim
+	<nameTag>.setAttribute('<nameAttribute>','<value>')
+	<nameTag>.appendChild(data)
+		data:
+			document.createTextNode(<'text'>)
+			<nameTag>
+replace :
+	 create Tag => select old Tag => select parent => replace
+	 <parent>.replaceChild(newTag,oldTag)
+
+delete:
+	<selectElement>.remove()
+	<parent>.removeChild(<child>)
 
 
+*****************************************
+******************EVENT******************
+*****************************************
+event:
+	<selectElement>.addEventListener(<type>,<function>)
+	Note:barya in ke bad az click roye yek button jay narim
+		 miyam va e.preventDefault() gharar midim.
+		 e => zamani ke ma miyam va yek event misazim function ke
+		      dar zanme event tarif mikonim yek voridi dare be sorate
+		      pish farz be name 'e' ke kole frayande event tosh hast
+	* mouse:
+		* type
+			# click : submit(in form)
+			# dblclick
+			# mousedown
+			# mouseup
+			# mouseenter
+			# mouseleave
+			# mousemove
+
+	* keyboard:
+		* type
+			# keydown : press any button keyboard
+			# keyup : unpress any button keyboard
+			# keypress
+			# focus : select element
+			# blur : select other views after select element
+			# cut : cut text in element event cut run
+			# paste : paste text in element event paste run
+			# input : include => keydown/keyup/keypress/cut/paste/...
+
+	* target
+		# id
+		# className
+		# classList
+		# value => in keyboard enter for event keyboard
+
+	* clientY : noghteye dar Y window az element
+
+	* clientX : noghteye dar X window az element
+
+	* offsetY : noghteye dar Y box element
+
+	* offsetX : noghteye dar X box element
 
 
 
